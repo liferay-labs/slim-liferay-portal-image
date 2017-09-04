@@ -1,0 +1,1 @@
+# slim-liferay-portal-image
