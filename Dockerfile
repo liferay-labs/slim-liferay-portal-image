@@ -63,3 +63,7 @@ RUN cd /tmp/lpkg/webExperience && zip -r /tmp/lpkg/Liferay\ CE\ Web\ Experience.
 RUN cp /tmp/lpkg/Liferay\ CE\ Web\ Experience.lpkg /usr/local/liferay-ce-portal-7.0-ga4/osgi/marketplace/Liferay\ CE\ Web\ Experience.lpkg
 
 RUN rm -rf  /tmp/lpkg
+
+#Include portal-ext.properties
+
+COPY portal-ext.properties /usr/local/liferay-ce-portal-7.0-ga4/portal-ext.properties
