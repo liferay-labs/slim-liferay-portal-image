@@ -64,6 +64,6 @@ RUN cp /tmp/lpkg/Liferay\ CE\ Web\ Experience.lpkg /usr/local/liferay-ce-portal-
 
 RUN rm -rf  /tmp/lpkg
 
-#Include portal-ext.properties
+# Include portal-ext.properties
 
 COPY portal-ext.properties /usr/local/liferay-ce-portal-7.0-ga4/portal-ext.properties
